@@ -1,0 +1,132 @@
+
+
+/*SideNav Part*/
+#sideNav{
+    background-color: #121212;
+    width: 243px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    border-right: 10px solid black;
+    
+}
+.sideNav-item{
+    width: 2%;
+    margin: 4rem 0;
+}
+#sideNav a{
+    text-decoration: none;
+    color: #b0b0b0;
+}
+#sideNav a:hover{
+    color: #e8e8e8;
+}
+/*SideNav Part*/
+
+/* Spotify Logo Part */
+#logo-text{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #b0b0b0;
+}
+#spotify-text{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+/* Spotify Logo Part */
+/* Homepage - Search ex. Part */
+#menu{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.menu-item{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row; 
+    
+}
+.fa-2x{
+    font-size: 25px;
+    width: 25px;
+   
+}
+.menu-text{
+    margin-top: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.menu-item a{
+    color: #b0b0b0;
+    text-decoration: none;
+}
+
+/* Homepage - Search ex. Part */
+/* Create Playlist and Fav Songs */
+#create-playlist{
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+#create-playlist div{
+    margin: -5px 0;
+}
+.logo-click{
+    opacity: 0.8;
+}
+.fa-1x{
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 3px;
+}
+.fa-plus{
+    background-color: #b2b2b2;
+    color: #000000;
+}
+.sideNav-item .fa-heart{
+    background-color: #5952a2;
+    padding-top: 6px;
+    color: white;
+    font-size: 12px;
+}
+hr{ 
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 1px;
+    background-color: #3e3e3e;
+    
+    border: none;
+}
+/* Create Playlist and Fav Songs */
+/*Playlists Part*/
+#playlists{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    
+    width: 200px;
+    height: 230px;
+    overflow-y: scroll; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    height: 250px;
+}
+#playlists a{
+    display: block;
+    font-size: 15px;
+    padding: 6px 0;
+}
+
+
+
+/*Playlists Part*/
